@@ -30,6 +30,7 @@ export default function CatBreedSorter() {
   };
 
   return (
+  <main className="min-h-screen bg-gray-100">
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Sort Cat Breeds by Preference</h1>
       <p className="mb-4">Drag and drop to reorder the cat breeds based on your preference.</p>
@@ -57,6 +58,7 @@ export default function CatBreedSorter() {
         </Droppable>
       </DragDropContext>
     </div>
-  );
+  </main>
+);
 }
 
